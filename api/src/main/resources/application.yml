@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: auto-forum
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/forum?autoReconnect=true
+    username: root
+    password: 4P3r85fj
+    tomcat:
+      max-active: 4
+      min-idle: 2
+      initial-size: 2
+
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    timeout: 1000

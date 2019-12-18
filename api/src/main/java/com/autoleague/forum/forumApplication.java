@@ -1,4 +1,4 @@
-package com.autoleague;
+package com.autoleague.forum;
 
 
 import org.springframework.boot.SpringApplication;
