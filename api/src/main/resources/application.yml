@@ -1,10 +1,10 @@
 
 spring:
   application:
-    name: auto-forum
+    name: auto-autoforum
 
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/forum?autoReconnect=true
+    url: jdbc:mysql://127.0.0.1:3306/autoforum?autoReconnect=true
     username: root
     password: 4P3r85fj
     tomcat:
